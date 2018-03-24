@@ -1,0 +1,310 @@
+/* informations*/
+
+.headline {
+    color: #8e3aa9;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 0 4px;
+}
+
+#information {
+    margin: 60px 0 16px;
+    overflow: hidden;
+    background: linear-gradient(rgba(255, 57, 184, 0.5), rgba(255, 174, 112, 0.5));
+    height: fit-content;
+}
+
+#banks {
+    float: left;
+    width: 50%;
+}
+
+#banks table {
+    border-collapse: collapse;
+    margin-top: 8px;
+    width: 512px;
+}
+
+#banks td {
+    padding: 6px 0 0 16px;
+    line-height: 14px;
+    width: 130px;
+    vertical-align: middle;
+}
+
+#banks img {
+    display: block;
+    margin: 0 auto;
+    width: 22px;
+}
+
+#banks h3 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#event {
+    float: right;
+    width: 50%;
+    /*height: 100%;*/
+}
+
+#list-head {
+    height: 15%;
+}
+
+#list {
+    height: 85%;
+    overflow: auto;
+    padding-right: 8px;
+    box-sizing: unset;
+}
+
+#list ul {
+    list-style: none;
+}
+
+#list li {
+    padding: 0px;
+    height: 25px;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+#list li:nth-child(odd) {
+    background: #efefef;
+}
+
+#list a {
+    color: #000;
+}
+
+#content {
+    padding-top: 8px;
+}
+
+#content > div {
+    overflow: hidden;
+    padding-bottom: 19px;
+}
+
+#left {
+    float: left;
+    width: 314px;
+}
+
+#left ul {
+    list-style: none;
+}
+
+#left li {
+    margin: 8px 8px 0;
+    overflow: hidden;
+}
+
+#left li:first-child {
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 8px;
+}
+
+#left p:first-child {
+    color: #523f6d;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#left h2 {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#left a {
+    background: #523f6d;
+    border: 1px solid #C5C7C7;
+    color: #FFF;
+    float: right;
+    margin-top: 8px;
+    padding: 2px 8px;
+}
+
+
+/*курсы криптовалют*/
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+ul {
+    list-style: none
+}
+
+/*шрифт метяет*/     /*--- прочитать про эти свойства все и убрать ненужные*/
+body {
+    font-family: sans-serif;
+    font-size: 62.5%
+}
+
+#table_of_exchange_rates {
+    font-size: 13px;
+    line-height: 48px;
+    color: rgba(100, 175, 255, 1);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+}
+
+#table_of_exchange_rates  {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#table_of_exchange_rates  #currency-pairs-dropdown {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(40, 40, 40, 1);
+    width: 100%;
+    padding: 24px;
+    border-radius: 6px 0 6px 6px;
+    display: none;
+    z-index: 1;
+    text-align: center;
+}
+
+#table_of_exchange_rates  #currency-pairs-dropdown .currency-group {
+    width: 176px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 21px 0 0;
+}
+
+#table_of_exchange_rates  #currency-pairs-dropdown .currency-group ul li {
+    line-height: 30px;
+    color: rgba(140, 140, 140, 1);
+    position: relative;
+}
+
+#table_of_exchange_rates  #currency-pairs-dropdown .currency-group ul li:not(:last-child) {
+    border-bottom: 1px solid rgba(60, 60, 60, 1);
+}
+
+#table_of_exchange_rates  #currency-pairs-dropdown .currency-group ul li.group-title {
+    font-size: 11px;
+    line-height: 25px;
+    color: rgba(120, 120, 120, 1);
+}
+
+#table_of_exchange_rates  #currency-pairs-dropdown .currency-group ul li span.group-pair {
+    color: rgba(100, 175, 255, 1);
+}
+
+#table_of_exchange_rates  #currency-pairs-dropdown .currency-group ul li span.group-price {
+    position: absolute;
+    left: 76px;
+}
+
+/*курсы валют c nbrb.by*/
+#currency-pairs-dropdown-2 {
+    position: relative;
+    top: 20px;
+    left: 0;
+    background-color: rgba(40, 40, 40, 1);
+    width: 100%;
+    padding: 24px;
+    border-radius: 6px 6px 6px 0;
+    display: none;
+    z-index: 1;
+    text-align: center;
+}
+
+#currency-pairs-dropdown-2 .currency-group {
+    width: 176px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 21px 0 0;
+}
+
+#currency-pairs-dropdown-2 .currency-group ul li {
+    line-height: 30px;
+    color: rgba(140, 140, 140, 1);
+    position: relative;
+}
+
+#currency-pairs-dropdown-2 .currency-group ul li:not(:last-child) {
+    border-bottom: 1px solid rgba(60, 60, 60, 1);
+}
+
+#currency-pairs-dropdown-2 .currency-group ul li.group-title {
+    font-size: 11px;
+    line-height: 25px;
+    color: rgba(120, 120, 120, 1);
+}
+
+#currency-pairs-dropdown-2 .currency-group ul li span.group-pair {
+    color: rgba(100, 175, 255, 1);
+}
+
+#currency-pairs-dropdown-2 .currency-group ul li span.group-price {
+    position: absolute;
+    left: 76px;
+}
+
+#information table, td, th {
+    border: none;
+    padding: 0;
+}
+
+#information td a {
+    display: block;
+    width: 22px;
+}
+
+.bank-wrapper {
+    width: 130px;
+    height: 30px;
+    float: left;
+}
+
+.bank-wrapper .bank-link {
+    float: left;
+}
+
+.bank-wrapper .bank-text {
+    float: left;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    #information {
+        height: fit-content;
+    }
+    #banks {
+        float: left;
+        width: 100%;
+    }
+    #event {
+        float: left;
+        width: 100%;
+        height: 200px;
+    }
+}

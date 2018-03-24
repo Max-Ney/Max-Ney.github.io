@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<title>cryptonik.by — Обмен криптовалюты по лучшим курсам</title>
+	<link rel="dns-prefetch" href="http://s.w.org/">
+	<link rel="alternate" type="application/rss+xml" title="cryptonik.by » Лента" href="http://cryptonik.by/?feed=rss2">
+	<link rel="alternate" type="application/rss+xml" title="cryptonik.by » Лента комментариев" href="http://cryptonik.by/?feed=comments-rss2">
+	<script type="text/javascript"></script>
+	<script type="text/javascript" defer=""></script>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel="stylesheet" id="dashicons-css" href="css/dashicons.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="theme-my-login-css" href="css/theme-my-login.css" type="text/css" media="all">
+	<link rel="stylesheet" id="astra-theme-css-css" href="css/style.min.css" type="text/css" media="all">
+	<style id="astra-theme-css-inline-css" type="text/css">
+		html {
+			font-size: 93.75%;
+		}
+
+		a,
+		.page-title {
+			color: #0274be;
+		}
+
+		a:hover,
+		a:focus {
+			color: #3a3a3a;
+		}
+
+		body,
+		button,
+		input,
+		select,
+		textarea {
+			font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+			font-weight: inherit;
+			font-size: 15px;
+			font-size: 1rem;
+		}
+
+		blockquote {
+			border-color: rgba(2, 116, 190, 0.05);
+		}
+
+		.site-title {
+			font-size: 35px;
+			font-size: 2.3333333333333rem;
+		}
+
+		#masthead .site-logo-img .custom-logo-link img {
+			max-width: 325px;
+		}
+
+		.astra-logo-svg {
+			width: 325px;
+		}
+
+		.ast-archive-description .ast-archive-title {
+			font-size: 40px;
+			font-size: 2.6666666666667rem;
+		}
+
+		.site-header .site-description {
+			font-size: 15px;
+			font-size: 1rem;
+		}
+
+		.entry-title {
+			font-size: 30px;
+			font-size: 2rem;
+		}
+
+		.comment-reply-title {
+			font-size: 24px;
+			font-size: 1.6rem;
+		}
+
+		.ast-comment-list #cancel-comment-reply-link {
+			font-size: 15px;
+			font-size: 1rem;
+		}
+
+		h1,
+		.entry-content h1,
+		.entry-content h1 a {
+			font-size: 48px;
+			font-size: 3.2rem;
+		}
+
+		h2,
+		.entry-content h2,
+		.entry-content h2 a {
+			font-size: 42px;
+			font-size: 2.8rem;
+		}
+
+		h3,
+		.entry-content h3,
+		.entry-content h3 a {
+			font-size: 30px;
+			font-size: 2rem;
+		}
+
+		h4,
+		.entry-content h4,
+		.entry-content h4 a {
+			font-size: 20px;
+			font-size: 1.3333333333333rem;
+		}
+
+		h5,
+		.entry-content h5,
+		.entry-content h5 a {
+			font-size: 18px;
+			font-size: 1.2rem;
+		}
+
+		h6,
+		.entry-content h6,
+		.entry-content h6 a {
+			font-size: 15px;
+			font-size: 1rem;
+		}
+
+		.ast-single-post .entry-title,
+		.page-title {
+			font-size: 30px;
+			font-size: 2rem;
+		}
+
+		#secondary,
+		#secondary button,
+		#secondary input,
+		#secondary select,
+		#secondary textarea {
+			font-size: 15px;
+			font-size: 1rem;
+		}
+
+		::selection {
+			background-color: #0274be;
+			color: #ffffff;
+		}
+
+		body,
+		h1,
+		.entry-title a,
+		.entry-content h1,
+		.entry-content h1 a,
+		h2,
+		.entry-content h2,
+		.entry-content h2 a,
+		h3,
+		.entry-content h3,
+		.entry-content h3 a,
+		h4,
+		.entry-content h4,
+		.entry-content h4 a,
+		h5,
+		.entry-content h5,
+		.entry-content h5 a,
+		h6,
+		.entry-content h6,
+		.entry-content h6 a {
+			color: #3a3a3a;
+		}
+
+		.tagcloud a:hover,
+		.tagcloud a:focus,
+		.tagcloud a.current-item {
+			color: #ffffff;
+			border-color: #0274be;
+			background-color: #0274be;
+		}
+
+		.main-header-menu a,
+		.ast-header-custom-item a {
+			color: #3a3a3a;
+		}
+
+		.main-header-menu li:hover > a,
+		.main-header-menu li:hover > .ast-menu-toggle,
+		.main-header-menu .ast-masthead-custom-menu-items a:hover,
+		.main-header-menu li.focus > a,
+		.main-header-menu li.focus > .ast-menu-toggle,
+		.main-header-menu .current-menu-item > a,
+		.main-header-menu .current-menu-ancestor > a,
+		.main-header-menu .current_page_item > a,
+		.main-header-menu .current-menu-item > .ast-menu-toggle,
+		.main-header-menu .current-menu-ancestor > .ast-menu-toggle,
+		.main-header-menu .current_page_item > .ast-menu-toggle {
+			color: #0274be;
+		}
+
+		input:focus,
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		input[type="url"]:focus,
+		input[type="password"]:focus,
+		input[type="reset"]:focus,
+		input[type="search"]:focus,
+		textarea:focus {
+			border-color: #0274be;
+		}
+
+		input[type="radio"]:checked,
+		input[type=reset],
+		input[type="checkbox"]:checked,
+		input[type="checkbox"]:hover:checked,
+		input[type="checkbox"]:focus:checked,
+		input[type=range]::-webkit-slider-thumb {
+			border-color: #0274be;
+			background-color: #0274be;
+			box-shadow: none;
+		}
+
+		.site-footer a:hover + .post-count,
+		.site-footer a:focus + .post-count {
+			background: #0274be;
+			border-color: #0274be;
+		}
+
+		.ast-comment-meta {
+			line-height: 1.666666667;
+			font-size: 12px;
+			font-size: 0.8rem;
+		}
+
+		.single .nav-links .nav-previous,
+		.single .nav-links .nav-next,
+		.single .ast-author-details .author-title,
+		.ast-comment-meta {
+			color: #0274be;
+		}
+
+		.menu-toggle,
+		button,
+		.ast-button,
+		.button,
+		input#submit,
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"] {
+			border-radius: 2px;
+			padding: 10px 40px;
+			color: #ffffff;
+			border-color: #0274be;
+			background-color: #0274be;
+		}
+
+		button:focus,
+		.menu-toggle:hover,
+		button:hover,
+		.ast-button:hover,
+		.button:hover,
+		input[type=reset]:hover,
+		input[type=reset]:focus,
+		input#submit:hover,
+		input#submit:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus {
+			color: #ffffff;
+			border-color: #3a3a3a;
+			background-color: #3a3a3a;
+		}
+
+		.search-submit,
+		.search-submit:hover,
+		.search-submit:focus {
+			color: #ffffff;
+			background-color: #0274be;
+		}
+
+		.entry-meta,
+		.entry-meta * {
+			line-height: 1.45;
+			color: #0274be;
+		}
+
+		.entry-meta a:hover,
+		.entry-meta a:hover *,
+		.entry-meta a:focus,
+		.entry-meta a:focus * {
+			color: #3a3a3a;
+		}
+
+		blockquote,
+		blockquote a {
+			color: #000000;
+		}
+
+		.ast-404-layout-1 .ast-404-text {
+			font-size: 200px;
+			font-size: 13.333333333333rem;
+		}
+
+		.widget-title {
+			font-size: 21px;
+			font-size: 1.4rem;
+			color: #3a3a3a;
+		}
+
+		#cat option,
+		.secondary .calendar_wrap thead a,
+		.secondary .calendar_wrap thead a:visited {
+			color: #0274be;
+		}
+
+		.secondary .calendar_wrap #today,
+		.ast-progress-val span {
+			background: #0274be;
+		}
+
+		.secondary a:hover + .post-count,
+		.secondary a:focus + .post-count {
+			background: #0274be;
+			border-color: #0274be;
+		}
+
+		.calendar_wrap #today > a {
+			color: #ffffff;
+		}
+
+		.ast-pagination a,
+		.page-links .page-link,
+		.single .post-navigation a {
+			color: #0274be;
+		}
+
+		.ast-pagination a:hover,
+		.ast-pagination a:focus,
+		.ast-pagination > span:hover:not(.dots),
+		.ast-pagination > span.current,
+		.page-links > .page-link,
+		.page-links .page-link:hover,
+		.post-navigation a:hover {
+			color: #3a3a3a;
+		}
+
+		@media (min-width:545px) {
+			.ast-page-builder-template .comments-area,
+			.single.ast-page-builder-template .entry-header,
+			.single.ast-page-builder-template .post-navigation {
+				max-width: 1240px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		@media (max-width:768px) {
+			html {
+				font-size: 85.5%;
+			}
+			.ast-archive-description .ast-archive-title {
+				font-size: 40px;
+			}
+			.entry-title {
+				font-size: 30px;
+			}
+			h1,
+			.entry-content h1,
+			.entry-content h1 a {
+				font-size: 30px;
+			}
+			h2,
+			.entry-content h2,
+			.entry-content h2 a {
+				font-size: 25px;
+			}
+			h3,
+			.entry-content h3,
+			.entry-content h3 a {
+				font-size: 20px;
+			}
+			.ast-single-post .entry-title,
+			.page-title {
+				font-size: 30px;
+			}
+		}
+
+		@media (max-width:544px) {
+			.ast-archive-description .ast-archive-title {
+				font-size: 40px;
+			}
+			.entry-title {
+				font-size: 30px;
+			}
+			h1,
+			.entry-content h1,
+			.entry-content h1 a {
+				font-size: 30px;
+			}
+			h2,
+			.entry-content h2,
+			.entry-content h2 a {
+				font-size: 25px;
+			}
+			h3,
+			.entry-content h3,
+			.entry-content h3 a {
+				font-size: 20px;
+			}
+			.ast-single-post .entry-title,
+			.page-title {
+				font-size: 30px;
+			}
+		}
+
+		@media (min-width:769px) {
+			.ast-container {
+				max-width: 1240px;
+			}
+		}
+
+		@font-face {
+			font-family: "Astra";
+			src: url("fonts/astra.woff") format("woff"), url("fonts/astra.ttf") format("truetype"), url("img/svg/astra.svg#astra") format("svg");
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		.ast-small-footer {
+			border-top-style: solid;
+			border-top-width: 0px;
+			border-top-color: #7a7a7a
+		}
+
+		.ast-small-footer-wrap {
+			text-align: center;
+		}
+
+		@media (max-width:920px) {
+			.ast-404-layout-1 .ast-404-text {
+				font-size: 100px;
+				font-size: 6.6666666666667rem;
+			}
+		}
+
+		.ast-header-break-point .site-header {
+			border-bottom-width: 1px;
+		}
+
+		@media (min-width: 769px) {
+			.main-header-bar {
+				border-bottom-width: 1px;
+			}
+		}
+
+		.main-header-bar-wrap {
+			content: '921';
+		}
+
+		@media all and ( min-width: 921px) {
+			.main-header-bar-wrap {
+				content: '';
+			}
+		}
+	</style>
+	<link rel="https://api.w.org/" href="http://cryptonik.by/index.php?rest_route=/">
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cryptonik.by/xmlrpc.php?rsd">
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cryptonik.by/wp-includes/wlwmanifest.xml">
+	<meta name="generator" content="WordPress 4.9.4">
+	<link rel="canonical" href="http://cryptonik.by/">
+	<link rel="shortlink" href="http://cryptonik.by/">
+	<link rel="alternate" type="application/json+oembed" href="http://cryptonik.by/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fcryptonik.by%2F">
+	<link rel="alternate" type="text/xml+oembed" href="http://cryptonik.by/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fcryptonik.by%2F&amp;format=xml">
+	<link rel="icon" href="img/png/icon.png" sizes="32x32">
+
+	<link rel="Stylesheet" href="css/style-style.css" type="text/css" media="all">
+</head>
+
+<body itemtype="https://schema.org/WebPage" itemscope="itemscope" class="home page-template-default page page-id-50 wp-custom-logo ast-separate-container ast-no-sidebar astra-1.2.3 ast-header-custom-item-inside ast-single-post">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header itemtype="https://schema.org/WPHeader" itemscope="itemscope" id="masthead" class="site-header header-main-layout-1 ast-mobile-header-inline" role="banner">
+
+		<div class="main-header-bar-wrap">
+			<div class="main-header-bar">
+				<div class="ast-container">
+
+					<div class="ast-flex main-header-container">
+
+						<div class="site-branding">
+							<div class="ast-site-identity" itemscope="itemscope" itemtype="https://schema.org/Organization">
+								<span class="site-logo-img"><a href="" class="custom-logo-link" rel="home" itemprop="url"><img src="img/png/logo2-325x68.png" class="custom-logo" alt="cryptonik.by" itemprop="logo" srcset="" sizes="(max-width: 325px) 100vw, 325px" width="325" height="68"></a></span>
+								<div class="ast-site-title-wrap">
+
+									<p class="site-description" itemprop="description">Обмен криптовалюты по лучшим курсам</p>
+								</div>
+							</div>
+						</div>
+						<!-- .site-branding -->
+						<div class="ast-mobile-menu-buttons">
+
+							<div class="ast-button-wrap">
+								<button type="button" class="menu-toggle main-header-menu-toggle" rel="main-menu" aria-controls="primary-menu" aria-expanded="false" data-index="0">
+									<span class="screen-reader-text">Main Menu</span>
+									<i class="menu-toggle-icon"></i>
+								</button>
+							</div>
+
+						</div>
+						<div class="ast-main-header-bar-alignment">
+							<div class="main-header-bar-navigation">
+								<nav itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" id="site-navigation" class="ast-flex-grow-1" role="navigation" aria-label="Site Navigation">
+									<div class="main-navigation">
+										<ul id="primary-menu" class="main-header-menu ast-flex ast-justify-content-flex-end submenu-with-border nav-menu" aria-expanded="false">
+											<li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-43 ast-left-align-sub-menu" aria-haspopup="true"><a href="">Главная</a>
+												<button role="button" class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button>
+												<ul class="sub-menu">
+													<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-92"><a href="">Как это работает</a></li>
+													<li id="menu-item-93" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-93"><a href="">Для кого</a></li>
+												</ul>
+											</li>
+											<li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-69"><a href="">Регистрация</a></li>
+											<li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-91"><a href="">Вход</a></li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<!-- Main Header Container -->
+				</div>
+				<!-- ast-row -->
+			</div>
+			<!-- Main Header Bar -->
+		</div>
+		<!-- Main Header Bar Wrap -->
+
+	</header>
+	<!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+		<div class="ast-container">
+
+			<div id="primary" class="content-area primary">
+
+				<main id="main" class="site-main" role="main">
+
+					<!--get_template_part( 'template-parts/content', 'page' );-->
+					<div id="table_of_exchange_rates">
+
+						<!--код курсов криптовалют-->
+						<div id="currency-pairs-dropdown" style="display: block;" data-url="/account/trade-pair/set/">
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">Ripple XRP</li>
+									<li data-setter="XRP/USD"><span class="group-pair">XRP / USD</span><span class="group-price">USD 0.67093</span></li>
+									<li data-setter="XRP/EUR"><span class="group-pair">XRP / EUR</span><span class="group-price">EUR 0.54847</span></li>
+									<li data-setter="XRP/BTC"><span class="group-pair">XRP / BTC</span><span class="group-price">BTC 0.00007532</span></li>
+								</ul>
+							</div>
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">Litecoin</li>
+									<li data-setter="LTC/USD"><span class="group-pair">LTC / USD</span><span class="group-price">USD 168.25</span></li>
+									<li data-setter="LTC/EUR"><span class="group-pair">LTC / EUR</span><span class="group-price">EUR 136.92</span></li>
+									<li data-setter="LTC/BTC"><span class="group-pair">LTC / BTC</span><span class="group-price">BTC 0.01893501</span></li>
+								</ul>
+							</div>
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">Bitcoin BTC</li>
+									<li class="selected-item" data-setter=""><span class="group-pair">BTC / USD</span><span class="group-price">USD 8904.40</span></li>
+									<li data-setter="BTC/EUR"><span class="group-pair">BTC / EUR</span><span class="group-price">EUR 7253.98</span></li>
+								</ul>
+							</div>
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">Ethereum</li>
+									<li data-setter="ETH/USD"><span class="group-pair">ETH / USD</span><span class="group-price">USD 560.60</span></li>
+									<li data-setter="ETH/EUR"><span class="group-pair">ETH / EUR</span><span class="group-price">EUR 456.31</span></li>
+									<li data-setter="ETH/BTC"><span class="group-pair">ETH / BTC</span><span class="group-price">BTC 0.06302997</span></li>
+								</ul>
+							</div>
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">Bitcoin Cash BCH</li>
+									<li data-setter="BCH/USD"><span class="group-pair">BCH / USD</span><span class="group-price">USD 1032.35</span></li>
+									<li data-setter="BCH/EUR"><span class="group-pair">BCH / EUR</span><span class="group-price">EUR 838.98</span></li>
+									<li data-setter="BCH/BTC"><span class="group-pair">BCH / BTC</span><span class="group-price">BTC 0.11597967</span></li>
+								</ul>
+							</div>
+						</div>
+						<!--код курсов валют c nbrb.by и topkantor.pl-->
+						<div id="currency-pairs-dropdown-2" style="display: block;" data-url="/account/trade-pair/set/">
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">НАЦИОНАЛЬНЫЙ БАНК</li>
+									<li data-setter="XRP/USD"><span class="group-pair">USD / BYN</span><span class="group-price">USD 1,9641</span></li>
+									<li data-setter="XRP/EUR"><span class="group-pair">EUR / BYN</span><span class="group-price">EUR 2,4241</span></li>
+								</ul>
+							</div>
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">РЕСПУБЛИКИ БЕЛАРУСЬ</li>
+									<li data-setter="XRP/USD"><span class="group-pair">RUB / BYN</span><span class="group-price">RUB 3,4029</span></li>
+									<li data-setter="XRP/EUR"><span class="group-pair">PLN / BYN</span><span class="group-price">PLN 5,7263</span></li>
+								</ul>
+							</div>
+							<div class="currency-group">
+								<img src="img/png/logo.png" alt="Cryptonik.by">
+							</div>
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">КУРСЫ ОБМЕНА</li>
+									<li data-setter="XRP/USD"><span class="group-pair">USD / PLN</span><span class="group-price">USD 3.4329</span></li>
+									<li data-setter="XRP/EUR"><span class="group-pair">EUR / PLN</span><span class="group-price">EUR 4.2255</span></li>
+								</ul>
+							</div>
+							<div class="currency-group">
+								<ul>
+									<li class="group-title">TOPkantor</li>
+									<li data-setter="XRP/USD"><span class="group-pair">CHF / PLN</span><span class="group-price">CHF 3.6161</span></li>
+									<li data-setter="XRP/EUR"><span class="group-pair">GBP / PLN</span><span class="group-price">GBP 4.8453</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div id="information">
+						<script></script>
+						<div id="banks">
+							<div>
+								<h2 class="headline">Список банков в РБ с быстрым переводом средств</h2>
+							</div>
+							<div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.alfabank.by/"><img src="img/ico/alfabank.ico" alt="Альфа-Банк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Альфа-Банк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://absolutbank.by/"><img src="img/ico/absolutbank.ico" alt="Абсолютбанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Абсолютбанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="http://belgazprombank.by/"><img src="img/ico/belgazprombank.ico" alt="Белгазпромбанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Белгазпромбанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.belveb.by/"><img src="img/ico/belveb.ico" alt="БелВЭБ"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>БелВЭБ</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.vtb-bank.by/"><img src="img/png/vtb.png" alt="ВТБ"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>ВТБ</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.mmbank.by/"><img src="img/ico/mmbank.ico" alt="Москва-Минск"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Москва-Минск</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://rbank.by/"><img src="img/ico/rbank.ico" alt="Решение"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Решение</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="http://www.belapb.by/"><img src="img/ico/belapb.ico" alt="Белагропромбанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Белагропром</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://belarusbank.by/"><img src="img/png/belarusbank.png" alt="Беларусбанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Беларусбанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.belinvestbank.by/individual"><img src="img/ico/belinvestbank.ico" alt="Белинвестбанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Белинвестбанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="http://bnb.by/"><img src="img/ico/bnb.ico" alt="БНБ-Банк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>БНБ-Банк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.bps-sberbank.by/online/ru.personal"><img src="img/ico/bps-sberbank.ico" alt="БПС-Сбербанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>БПС-Сбербанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.bsb.by/"><img src="img/ico/bsb.ico" alt="БСБ"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>БСБ</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="http://www.btabank.by/"><img src="img/ico/btabank.ico" alt="БТА"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>БТА</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.ideabank.by/"><img src="img/ico/ideabank.ico" alt="ИдеяБанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>ИдеяБанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.mtbank.by/"><img src="img/ico/mtbank.ico" alt="МТБанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>МТБанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="http://www.paritetbank.by/"><img src="img/ico/paritetbank.ico" alt="Паритетбанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Паритетбанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.priorbank.by/"><img src="img/ico/priorbank.ico" alt="Приорбанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Приорбанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://rrb.by/"><img src="img/png/rrb.png" alt="РРБ-Банк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>РРБ-Банк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://stbank.by/"><img src="img/png/stbank.png" alt="СтатусБанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>СтатусБанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://tb.by/individuals/"><img src="img/ico/tb.ico" alt="Технобанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Технобанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://tcbank.by/"><img src="img/ico/tcbank.ico" alt="ТКБанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>ТКБанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://fransabank.by/"><img src="img/ico/fransabank.ico" alt="Франсабанк"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Франсабанк</sub></h3>
+									</div>
+								</div>
+								<div class="bank-wrapper">
+									<div class="bank-link">
+										<a href="https://www.zepterbank.by/"><img src="img/ico/zepterbank.ico" alt="Цептер"></a>
+									</div>
+									<div class="bank-text">
+										<h3><sub>Цептер</sub></h3>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="event" style="height: 214px;">
+							<div id="list-head">
+								<h2 class="headline">Последние события в Сryptonik</h2>
+							</div>
+							<div id="list">
+								<table style="width: 380px; margin: 0px 2px 2px 2px" cellspacing="0" border="0">
+									<tbody>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/transfer-buy.png"></td>
+										<td>&nbsp;00:00&nbsp;&nbsp;</td>
+										<td>какой-то перевод</td>
+										<td>покупка</td>
+										<td>LTC</td>
+										<td></td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/transfer-buy.png"></td>
+										<td>&nbsp;00:01&nbsp;&nbsp;</td>
+										<td>какой-то перевод</td>
+										<td>покупка</td>
+										<td>CHF</td>
+										<td></td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/transfer-sale.png"></td>
+										<td>&nbsp;00:02&nbsp;&nbsp;</td>
+										<td>какой-то перевод</td>
+										<td>продажа</td>
+										<td>EUR</td>
+										<td></td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/transfer-buy.png"></td>
+										<td>&nbsp;00:03&nbsp;&nbsp;</td>
+										<td>какой-то перевод</td>
+										<td>покупка</td>
+										<td>BCH</td>
+										<td></td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/addpeople.png"></td>
+										<td>&nbsp;00:04&nbsp;&nbsp;</td>
+										<td colspan="4">кто-то зарегистрировался или вошёл</td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/transfer-buy.png"></td>
+										<td>&nbsp;00:05&nbsp;&nbsp;</td>
+										<td>какой-то перевод</td>
+										<td>покупка</td>
+										<td>LTC</td>
+										<td></td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/addpeople.png"></td>
+										<td>&nbsp;00:06&nbsp;&nbsp;</td>
+										<td>кто-то зарегистрировался или вошёл</td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/transfer-sale.png"></td>
+										<td>&nbsp;00:07&nbsp;&nbsp;</td>
+										<td>какой-то перевод</td>
+										<td>продажа</td>
+										<td>CHF</td>
+										<td></td>
+									</tr>
+									<tr style="height: 21px;">
+										<td><img style="width: 23px; margin: 2px" src="img/png/transfer-buy.png"></td>
+										<td>&nbsp;00:08&nbsp;&nbsp;</td>
+										<td>какой-то перевод</td>
+										<td>покупка</td>
+										<td>EUR</td>
+										<td></td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+				</main>
+				<!-- #main -->
+
+			</div>
+			<!-- #primary -->
+
+		</div>
+		<!-- ast-container -->
+
+	</div>
+	<!-- #content -->
+
+	<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" class="site-footer" role="contentinfo">
+
+		<div class="ast-small-footer footer-sml-layout-1">
+			<div class="ast-footer-overlay">
+				<div class="ast-container">
+					<div class="ast-small-footer-wrap">
+						<div class="ast-small-footer-section ast-small-footer-section-1">
+							<p style="text-align: center;margin-top:5px;margin-bottom:5px;font-size:15px">
+								<a href="" rel="noopener" target="_blank">Правилами работы</a> |
+								<a href="" rel="noopener" target="_blank">Контакт</a> |
+								<a href="" rel="noopener" target="_blank">О нас</a> |
+								<a href="" rel="noopener" target="_blank">Безопасность</a> |
+								<a href="" rel="noopener" target="_blank">Программа лояльности</a> |
+								<a href="" rel="noopener" target="_blank">Новости</a> |
+								<a href="" rel="noopener" target="_blank">Международные переводы</a> |
+								<a href="" rel="noopener" target="_blank">Блог</a>
+							</p>
+						</div>
+
+					</div>
+					<!-- .ast-row .ast-small-footer-wrap -->
+				</div>
+				<!-- .ast-container -->
+			</div>
+			<!-- .ast-footer-overlay -->
+		</div>
+		<!-- .ast-small-footer-->
+
+	</footer>
+	<!-- #colophon -->
+
+</div>
+<!-- #page -->
+</body>
+
+</html>
